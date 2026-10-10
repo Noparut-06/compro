@@ -1,0 +1,26 @@
+Cyber Cafe Booking System - Member Report
+Generated At : 2026-10-11 01:34:14 (+07:00)
+Endianness   : Little-Endian
+Encoding     : UTF-8 (fixed-length)
+Data Sources : customers.bin, computers.bin, bookings.bin
+
++--------------+----------------------------------+------------------------+---------------------+---------------------------+-------------------------+---------------------+
+| User ID      | Full Name                        | Member Level           | Applied At          | Linked PC (computers.bin) | Bookings (bookings.bin) | Booking Total (THB) |
++--------------+----------------------------------+------------------------+---------------------+---------------------------+-------------------------+---------------------+
+| 1            | Mr.M                             | VIP Level 1 (10%)      | 2026-10-08 14:11:09 | PC-4                      | 0                       | 0.00                |
+| 4            | Miss.Mina                        | VIP Level 1 (10%)      | 2026-10-08 14:12:31 | PC-7                      | 1                       | 72.00               |
+| 2            | Miss.ploy                        | VIP Level 2 (13%)      | 2026-10-08 14:11:35 | PC-3                      | 0                       | 0.00                |
+| 3            | Mr.top                           | VIP Level 3 (20%)      | 2026-10-08 14:11:58 | PC-06                     | 0                       | 0.00                |
+| 5            | Mr.yui                           | VIP Level 3 (20%)      | 2026-10-08 14:12:53 | PC-05                     | 0                       | 0.00                |
++--------------+----------------------------------+------------------------+---------------------+---------------------------+-------------------------+---------------------+
+
+Summary
+- Total Applications : 5
+- Active Members     : 5
+- Deleted Members    : 0
+- General (0%)       : 0
+- VIP Level 1 (10%)  : 2
+- VIP Level 2 (13%)  : 1
+- VIP Level 3 (20%)  : 2
+- Members linked to a PC (computers.bin) : 5
+- Active bookings by members (bookings.bin) : 1

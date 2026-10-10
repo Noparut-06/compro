@@ -1,0 +1,46 @@
+Cyber Cafe Booking System - Problem Report
+Generated At : 2026-10-11 01:34:08
+Encoding     : UTF-8
+Data Sources : problem_reports.csv, computers.bin, bookings.bin
+
++----------+--------+------------+------------------+--------------------------+----------+
+| ReportID | CompID | PC Name    | Date             | Problem                  | Status   |
++----------+--------+------------+------------------+--------------------------+----------+
+| 1        | 1017   | PC-17      | 2026-10-08 14:32 | RAM Failure              | Open     |
+| 2        | 1016   | PC-16      | 2026-10-08 14:33 | Screen Lines             | Open     |
+| 3        | 1015   | PC-15      | 2026-10-08 14:34 | Screen Broken            | Open     |
+| 4        | 1014   | PC-14      | 2026-10-08 14:34 | Screen Broken            | Open     |
+| 5        | 1013   | PC-13      | 2026-10-08 14:35 | RAM Failure              | Open     |
++----------+--------+------------+------------------+--------------------------+----------+
+
+Cross-Reference (computers.bin / bookings.bin)
++----------+--------+--------------------+----------------------+-----------------+------------+
+| ReportID | CompID | PC (computers.bin) | Status Now           | Active Bookings | Booked Hrs |
++----------+--------+--------------------+----------------------+-----------------+------------+
+| 1        | 1017   | PC-17              | Maint                | 0               | 0          |
+| 2        | 1016   | PC-16              | Maint                | 0               | 0          |
+| 3        | 1015   | PC-15              | Maint                | 0               | 0          |
+| 4        | 1014   | PC-14              | Maint                | 0               | 0          |
+| 5        | 1013   | PC-13              | Maint                | 0               | 0          |
++----------+--------+--------------------+----------------------+-----------------+------------+
+- Reports matched in computers.bin     : 5 / 5
+- Open reports on PCs with bookings    : 0  (bookings.bin)
+
+Monthly Breakdown
+
+[2026-10] Total failures: 5 | Most common issue: RAM Failure (2 times)
++--------+------------+----------+--------------------------+----------------------+
+| CompID | PC Name    | Failures | Most Frequent Issue      | Breakdown by Issue   |
++--------+------------+----------+--------------------------+----------------------+
+| 1017   | PC-17      | 1        | RAM Failure (1 time)     | RAM Failure 1        |
+| 1016   | PC-16      | 1        | Screen Lines (1 time)    | Screen Lines 1       |
+| 1015   | PC-15      | 1        | Screen Broken (1 time)   | Screen Broken 1      |
+| 1014   | PC-14      | 1        | Screen Broken (1 time)   | Screen Broken 1      |
+| 1013   | PC-13      | 1        | RAM Failure (1 time)     | RAM Failure 1        |
++--------+------------+----------+--------------------------+----------------------+
+
+Summary
+- Total Problem Reports : 5
+- Open                 : 5
+- Closed               : 0
+- Top Issue (all time)  : RAM Failure (2 times)
